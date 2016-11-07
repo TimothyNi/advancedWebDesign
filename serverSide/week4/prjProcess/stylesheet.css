@@ -1,0 +1,64 @@
+/* stylesheet.css - Styling for the Red Door Burger Page
+	Written by Timothy Niccum	
+	Written: 10/2/2016
+	Revised:
+*/
+
+body {
+	background: #EEE;
+	font-size: 18px;
+	font-family: optima, helvetica, arial, sans-serif;
+}
+
+h1 {
+	border: 1px #dd2626 solid;
+	padding: 10px;
+	background: #AAA;
+	color: white;
+}
+
+input[type="text"] {
+  font-size:             1.5em;
+  color:                 #dd2626;  /* rosey red */
+}
+
+h2 {
+	background: #DDD;
+	color: #dd2626;
+	padding: 10px;
+	border: 1px #dd2626 solid;
+}
+
+li {
+	margin: 1.5em 0 0 0;
+}
+
+#frame {
+	max-width: 800px;
+	margin: auto;
+	border: 1px solid #dd2626;
+	padding: 20px;
+}
+select {
+	font-size: 1.1em;
+	padding: 5px;
+	margin: 10px;
+}
+
+table {
+	border: 1px solid black;
+}
+
+td, th {
+	padding: 5px 20px;
+}
+
+th {
+	background: #dd2626;
+	color: white;
+}
+
+/* zebra stripe the table */
+tr: nth-child(even) {
+	background: #a32828; 
+}

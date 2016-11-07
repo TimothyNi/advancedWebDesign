@@ -1,0 +1,24 @@
+{
+	"data": [{
+	 "price": "3.99", 
+     "product": "Wet Cat Food",
+     "description": "Merrick Cat Food",
+	 "sale": false
+   },
+   { "price": "4.55", 
+     "product": "Cat Toy",
+     "description": "Cat Nip Toy with Bell",
+	 "sale": true
+   },
+   { "price": "14.99", 
+     "product": "Cat Litter",
+     "description": "Non-Clumping Cat Litter",
+	 "sale": false   
+   },
+   { "price": "25.50", 
+     "product": "Cat Tree",
+     "description": "Cat Tree with three Levels",
+	 "sale": true
+   }
+]
+}

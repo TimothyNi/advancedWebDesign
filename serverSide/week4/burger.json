@@ -1,0 +1,19 @@
+{
+	"burgerName": "Pastramalicious",
+	"restaurantName": "Blue Door Pub",
+	"ingredientName": "Pastrami",
+	"address": {
+		"fLine": "3400 42nd Ave S",
+		"sLine": "Minneapolis, MN"
+	},
+	"other": [{
+		"sides": "fries",
+		"option": "cajun"
+	}, {
+		"sides": "tots",
+		"option": "cajun"
+	}, {
+		"sides": "fried green beans",
+		"option": "ranch"
+	}]
+}

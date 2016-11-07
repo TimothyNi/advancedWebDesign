@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+	<!-- readMe.html- This is our Groups Read Me for the project
+		Written by: Mohamed Mohamed
+		Class: CSC 235 ServerSide Development
+		Email:  mohamedm14@csp.edu
+		Student ID: L00379666
+		Class: CSC 235 ServerSide Development
+		Assignment Name: Project Web Form Week 1
+		Purpose:    The purpose of the Read Me file to show the colors that we used in our Group Project.
+		Written:	9-15-16
+		Revised:	9-16-16: Included the URL for the group project read me file and added color schemes.
+		Revised:    10-16-16 Included Security Lists
+	-->
+	<title>Read Me</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
+	</head>
+	<body>
+	
+	<div class = logo>
+            <img src="graphic/rmtLogo.jpg" alt="RMT logo"/>    
+    </div>
+	
+	<div class = header>
+            <H1>R M T Computer Sales</H1>
+            <hr />
+            <h2>Read Me</h2>
+    </div>
+	
+	<div class=main>
+		
+		<div class="roles">
+        	<h2>Roles of each group member for the Group Project</h2>
+			<h2>Richard</h2>
+			<ol>
+				<li>Creating a template.html and incorporating based on the wireframe layout to be used by the group.</li>
+				<li>Creating a database design.</li>
+				<li>Setting a shared up workspace for the group and setting a basic file structure.</li>
+				<li>Creating a index.html to show the URL, as well as the layout.png and database.png.</li>
+				<li>Creating Client Order Form.</li>
+			</ol>
+	
+			<h2>Tim</h2>
+			<ol>
+				<li>Writing a style.css for the group project.</li>	
+				<li>Creating pseudo logo for the group project.</li>
+				<li>Creating wireframe layout.</li>	
+				<li>Creating a Inventory Order Form.</li>
+				
+			</ol>
+	
+			<h2>Mohamed</h2>
+			<ol>
+				<li>Write a readMe.html file.</li>
+				<li>Validating all HTML pages.</li>
+				<li>Validating all CSS Pages.</li>
+				<li>WAVE accessibility scan.</li>
+				<li>Creating Contact Form.</li>
+			</ol>
+		</div>
+		
+		<hr />
+		
+		<div class="5W"></div>
+	
+			<h2>Paragraph of the 5 W's Purpose</h2>
+		
+			<ul>
+				<li>WHO:<strong>The Purpose of our computer sales shop is to sell technology products that are customers want to buy our products.</strong></li>
+				<li>WHAT:<strong>The Purpose of our computer sales shop is to sell technology products that are customers want to buy our products.</strong> </li>
+				<li>WHEN:<strong>We are open 9AM-5PM Mondays through Fridays. During the weekends our computer shop is not open.</strong> </li>
+				<li>WHERE:<strong>Our shop is located near Downtown  Minneapolis right by the Target Center.</strong> </li>
+				<li>WHY:<strong>Many customers tell us why we have a computer shop open because they are computer shops already much ass BestBuy, Microsoft, and Apple. Our response to them is that we customers find that we have dedicated employees that give them good insight of the product their purchasing.</strong> </li>
+				<li>HOW:<strong>The customers that benefit from our computer sales usually come back another day because we offer great deals on computers that others shops.</strong> </li>
+			</ul>
+   		</div>     
+   		
+   		<hr />
+   		<div class="Security List">
+   			
+   	
+   			<h2>Security List</h2>
+   			<ul>
+   				<li><strong>mysqli_real_escape_string( )</strong>
+   				<ul>
+   					<li>mysqli_real_escape_string( ): Filters user input to remove special characters reserved for mysql queries. This is then considered a legal query. This mitigates risk from allowing all user input to directly interact with the database.</li>
+   					<li><a href="https://falkencomputing.com/team-englebart/clientOrderForm.pnp" target="_blank">clientOrderForm</a></li>
+   					<li>Lines: 57-61</li>
+   				</ul></li>
+				<br />
+   				<li><strong>htmlentities( )</strong>
+   				<ul>
+   					<li>htmlentities( ) is used in my form to keep people from throwing in rouge html into my product user input.</li>
+   					<li><a href="https://falkencomputing.com/team-englebart/inventoryOrderForm.php" target="_blank">It is on the Inventory Order Form</a></li>
+   					<li>Line number:<br />
+   					<ul><li>First there is code related to htmlentities on line 30 through 39</li>
+   					<li>Then there is code at the bottom of the page on line 187 through 204.</li>
+   					</ul></li>
+   				</ul></li>
+   				<br />
+   				<li><strong>urlencode( ) and urldecode( )</strong>
+   				<ul>
+   					<li>Urlencode( ) and Urldecode( ) are used on my Contact Form for the group project. Urlencode ( ) means that you can create a valid URL on the browser or you can created in a stored table and this ensures that you wont have to warn any users about the use of unknown characters. Urldecode ( ) is to put the orginial characters back in place. Both Of these urlencode ( ) and urldecode ( ) are used in my  Contact Form and the reason they are used it control the data that the users input in my form.</li>
+   					<li><a href="https://falkencomputing.com/team-englebart/contactForm.php" target="_blank"> It is located on the Contact Form page</a></li>
+					<li>Line number:<br />
+   					<ul><li>In my Contact Form their are codes that are related to the urlencode ( ) and urldecode ( ) and the code lines will be from 132 through 136.</li>
+   				</ul></li>
+   				<br />
+   		<!---		<li><strong>Stored Procedure</strong>
+   				<ul>
+   					<li>Stored Procedure description</li>
+   					<li>Link to the page it is on</li>
+   					<li>Line number where it is located in the code</li>
+   					<li>The Stored Procedure PNG file</li>
+   				</ul></li>--->
+   			</ul>
+   				</div>
+   		<hr />
+   		<div class="link">
+  			<h2>Link to the production environment</h2>
+   			<p><a href="https://falkencomputing.com/team-englebart/" target="_blank">https://falkencomputing.com/team-englebart/</a></p>
+   			
+   		</div>
+   	
+	<div class=footer>
+            <p>Closed Source Code. Property of team members.</p>
+    </div>
+	
+</body>	
+</html>
+	
