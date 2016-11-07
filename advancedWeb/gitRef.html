@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- gitRef.html -  Git Cheat Sheet
+  Timothy Niccum - niccumt@csp.edu
+  Written:   11-6-2016 
+  Revised:   
+  -->
+ <title>Git Cheat Sheet</title>
+ <style type="text/css">
+ h1 {
+	font-family: "Lucida Bright", Georgia, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-align: center;
+}
+th {
+    background-color: #8cc9f2;
+    color: white;
+}
+table {
+    width: 100%;
+}
+
+th {
+	font-family: "Lucida Bright", Georgia, serif;
+    height: 50px;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #f5f5f5}
+</style>
+ 
+</head>
+<body>
+<h1>Git Cheat Sheet</h1>
+<table>
+  <tr>
+    <th>1. The commands you use to navigate through directories on the command line.</th>
+  </tr>
+  <tr>
+    <td>To change directories you have to type the following: $ cd followed by the name of the directory you want to change to.
+	  For example if you want to change to your desktop you would type $ cd desktop.</td>
+  </tr>
+    <tr>
+    <td>Changing drives is not something to take lightly, but it can be done using the CD much like changing a directory.  You should follow the $ cd with a backslash / of the drive you are currently in.  Say you are in the D drive moving to F, you'd type $ cd /D F:</td>
+  </tr>
+  <tr>
+    <td>To show the contents of the directory you simply have to type the following:  $ ls<br /> This lists everything in the directory</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>2. How to initialize a stand-alone, local Git repository.</th>
+  </tr>
+  <tr>
+    <td>Open up Git Bash and type git init</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>3. How to initialize a local Git repository from a GitHub repository.</th>
+  </tr>
+    <tr>
+    <td>After initializing the local Git repository, and you want to $ git add a file, and then commit it.  Type $ git remote add origin https://github.com/TimothyNi/advancedWebDesign to add it to the GitHub Repository.<br />
+	Type $ git push origin master to push the changes to the new repository.</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>4. How to get the most recent code from GitHub.</th>
+  </tr>
+    <tr>
+    <td>In order to get the most recent code from the repostitory on GitHub, you need to type the following into the Git Bash: $ git clone git:https://github.com/TimothyNi/advancedWebDesign</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>5. How to add and commit changes to a repository.</th>
+  </tr>
+    <tr>
+    <td>To add a file to a repository you need to have the file name, and type the following: $ git add followed by the file name. <br />
+	To commit those changes type: git commit -m "Add a comment here"</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>6. How to check the status of the repository.</th>
+  </tr>
+  <tr>
+    <td>To check the status you must type the following: $ git status</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>7. How to save your changes to a repository out on GitHub.</th>
+  </tr>
+  <tr>
+    <td>You could just add the file again, and push it out to GitHub.</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>8. How to view a list of all the commits in a repository.</th>
+  </tr>
+  <tr>
+    <td>Type $ git log to view a list of all commits that have been made in a repository.</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>9. How to make a temporary branch from the master repository.</th>
+  </tr>
+  <tr>
+    <td>Type $ git rebase master<br />
+	And you've made a copy of the branch on to the master repostitory.</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>10. How to merge a branch back into the master.</th>
+  </tr>
+  <tr>
+    <td>To Merge branch back in the master type: $ git merge [branch}</td>
+  </tr>
+</table><br /><br /><br />
+<p><center><a href="https://github.com/TimothyNi/advancedWebDesign">This is the link to my GitHub</a></center></p>
+</body>
+</html>
